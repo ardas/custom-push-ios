@@ -1,0 +1,15 @@
+# Firebase Cloud Messaging (FCM)
+
+use_frameworks!
+platform :ios, '8.0'
+
+pod 'Firebase/Core'
+pod 'Firebase/Messaging'
+
+target 'MessagingExampleSwift' do
+end
+target 'pushPlugin' do
+    pod 'Alamofire'
+end
+#target 'MessagingExampleTests' do
+#end
